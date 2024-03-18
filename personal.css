@@ -1,0 +1,127 @@
+/* File to style index.html */
+
+body {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main_container {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    border-radius: 12px;
+}
+#header { 
+    grid-row: 1;
+    width: 100%;
+    background-color: rgb(180, 7, 7);
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+    height: 230px;
+}
+#image_container {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 3%;
+}
+#image_container img {
+    display: block;
+    position: relative;
+    width: 74%;
+    height: 106px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 50px;
+    /*fill-opacity: var(90deg, 100%, white);*/
+    top: 20px;
+    left: 30px;
+    right: 50px;
+}
+#image_container img:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+#overlay_text {
+    grid-row: 1;
+    position: absolute;
+    width: 70%;
+    top: 20px;
+    left: 34px;
+    right: 50px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 1) 100%);
+    color: linen;
+    padding: 12px 20px 48px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+#selfpic {
+    grid-row: 1;
+    grid-column: 9/13;
+    float: right;
+    height: 220px;
+    margin-top: -134px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+h2 {
+    grid-row: 4;
+    background-image: linear-gradient(90deg, rgb(212, 7, 7), white);
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+h4 {
+    background-image: linear-gradient(90deg, rgb(252, 65, 65), white);
+    padding-left: 10px;
+    margin-left: 30px;
+    border-radius: 6px;
+}
+
+p {
+    padding-left: 5px;
+    margin-left: 30px;
+}
+ul {
+    margin: 20px;
+    padding: auto;
+}
+li {
+    padding-top: 5px;
+}
+footer {
+    grid-column: auto;
+    background-image: radial-gradient(rgb(248, 168, 168), rgb(212, 7, 7));
+    text-align: center;
+    padding: 8px;
+    padding-left: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 420px;
+    margin-right: 420px;
+    border: 3px solid rgb(142, 4, 4);
+    border-radius: 8px;
+    color: rgb(142, 4, 4);
+}
+footer:hover{
+    background-image: radial-gradient(rgb(254, 35, 35), rgb(169, 5, 5));
+    color: white;
+}
+footer a:link {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
