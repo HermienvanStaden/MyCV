@@ -31,14 +31,14 @@ Type [http ](https://hermienvanstaden.github.io/MyCV/) into searchbox of Interne
 
 Usage screenshots:
 
-![childhood_img](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV1.png
+![CV_img](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV1.png
 
-![childhood_img1](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV1.png) "MyCV Screenshot 1"))
+![CV_img1](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV1.png) "MyCV Screenshot 1"))
 
 
-![childhood_img](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV2.png
+![CV_img](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV2.png
 
-![childhood_img2](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV2.png) "MyCV Screenshot 2"))
+![CV_img2](https://github.com/HermienvanStaden/MyCV/blob/main/Images/Screenshot%20MyCV2.png) "MyCV Screenshot 2"))
 
 ## Authors
 
